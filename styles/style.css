@@ -144,7 +144,7 @@ body {
 }
 
 
-.video-card-350{
+.video-card-350 {
     width: 130px;
     height: 50px;
     background: rgba(48, 48, 48, 0.54);
@@ -160,7 +160,7 @@ body {
     text-align: right;
 }
 
-.video-card-500{
+.video-card-500 {
     width: 130px;
     height: 50px;
     background: rgba(48, 48, 48, 0.54);
@@ -176,26 +176,163 @@ body {
     text-align: left;
 }
 
-.circle{
+.circle {
     border: 2px solid red;
     border-radius: 50%;
-  
+
 }
 
-  .video-paragraph{
-    font-size: 12px;
-    color: rgba(239, 237, 232, 0.65);
-    text-align: left;
-}
- .workout-paragraph{
+.video-paragraph {
     font-size: 12px;
     color: rgba(239, 237, 232, 0.65);
     text-align: left;
 }
 
+.workout-paragraph {
+    font-size: 12px;
+    color: rgba(239, 237, 232, 0.65);
+    text-align: left;
+}
 
-    
 /* banner-section-ends */
 
 
 /* habit section start */
+
+.Change-Your-Habit {
+    width: 100%;
+    height: 500px;
+    background-color: #100f0f;
+}
+
+
+.habit-container {
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+
+}
+
+.habit-content {
+    text-align: center;
+
+}
+
+.habit-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+
+}
+
+.habit-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.img-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+
+}
+
+.img-container img {
+    border-radius: 50%;
+
+}
+
+.img-container h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.img-container p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* run section start */
+
+.run-extra-mile-banner{
+    width: 100%;
+    height: 400px;
+    background-color: #100f0f;
+}
+
+
+
+.run-banner-container {
+    width: 1060px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-banner-content{
+    margin-top: 20px;
+}
+
+.run-banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-left: 40px;
+}
+
+
+.run-banner-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 40px;
+}
+
+.run-banner-btn{
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: rgba(230, 83, 60);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.img-style img {
+    width: 300px;
+    height: 280px;
+    border-radius: 18px;
+    margin-right: 20px;
+}
+
+
+/* BMI calculator section start */
+
+.BMI-header-banner{
+
+}
+
+
+
+/* BMI calculator section end */
