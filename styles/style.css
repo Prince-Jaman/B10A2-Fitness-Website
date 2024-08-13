@@ -267,13 +267,11 @@ body {
 
 /* run section start */
 
-.run-extra-mile-banner{
+.run-extra-mile-banner {
     width: 100%;
     height: 400px;
     background-color: #100f0f;
 }
-
-
 
 .run-banner-container {
     width: 1060px;
@@ -286,11 +284,11 @@ body {
     background: rgb(34, 34, 34);
 }
 
-.run-banner-content{
+.run-banner-content {
     margin-top: 20px;
 }
 
-.run-banner-content h1{
+.run-banner-content h1 {
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
@@ -299,7 +297,7 @@ body {
 }
 
 
-.run-banner-content p{
+.run-banner-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -307,7 +305,7 @@ body {
     margin-left: 40px;
 }
 
-.run-banner-btn{
+.run-banner-btn {
     font-size: 18px;
     font-weight: 600;
     border-radius: 40px;
@@ -329,10 +327,285 @@ body {
 
 /* BMI calculator section start */
 
-.BMI-header-banner{
+.BMI-header-banner {
+    width: 100%;
+    height: 150px;
+    background-color: #100f0f;
+}
 
+.BMI-content {
+    margin-left: 350px;
+}
+
+.BMI-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.BMI-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.BMI-calculator-style {
+    width: 1060px;
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.calculator-chart {
+    width: 30%;
+}
+
+
+.calculate-your-BMI {
+    width: 50%;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+tr {
+    width: 10px;
+}
+
+
+.form-design {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 5px;
+}
+
+.activity {
+    height: 50px;
+}
+
+
+/* BMI calculator section end */
+
+
+/* Trainer section start */
+
+.meet-our-team {
+    width: 1060px;
+    height: 620px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+  
+}
+
+.meet-our-team-content{
+    text-align: center;
+}
+
+.display-grid {
+    width: 1060px;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;  
+    
+}
+
+.trainer-1{
+    position: relative;
+}
+.trainer-1 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-1 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+
+.trainer-1 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+  
+}
+
+.trainer-2{
+    position: relative;
+}
+
+.trainer-2 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-2 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+
+.trainer-2 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+  
+}
+
+.trainer-3{
+    position: relative;
+}
+
+.trainer-3 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-3 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+
+.trainer-3 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+}
+
+.trainer-4{
+    position: relative;
+}
+
+.trainer-4 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-4 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+
+.trainer-4 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+}
+
+
+.trainer-5{
+    position: relative;
+}
+
+.trainer-5 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-5 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+
+
+.trainer-5 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
 }
 
 
 
-/* BMI calculator section end */
+.trainer-6{
+    position: relative;
+}
+
+.trainer-6 h3{
+    position: absolute;
+    top: 70%;
+    color: white;
+    margin: 10px;
+}
+.trainer-6 p{
+    position: absolute;
+    top: 76%;
+    color: rgb(184, 172, 172);
+    margin: 10px;
+}
+.trainer-6 img {
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+}
+
+
+/* footer section start */
+
+.footer-container{
+    /* border: 2px solid red; */
+    width: 1060px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-item-1{
+    list-style: none;
+}
+.list-item-2{
+    list-style: none;
+}
+
+.copyright{
+    text-align: center;
+}
+.copyright hr{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+
+/* footer section end */
+
