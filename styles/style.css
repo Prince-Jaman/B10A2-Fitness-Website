@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
 body {
     font-family: "Inter", sans-serif;
 }
@@ -8,14 +7,18 @@ body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* header section start */
-.container {
-    width: 100%;
-    height: 720px;
-    margin: 0 auto;
+
+.header-section{
     background: linear-gradient(to bottom, #282727, #212020, #141414);
+}
+.header-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    
 }
 
 /* header section ends */
@@ -33,8 +36,12 @@ body {
     margin-left: 70px;
 
 }
+.ham-burger{
+    display: none;
+}
 
-.navbar-heading {
+
+.navbar {
     display: flex;
     gap: 30px;
     border: 1px solid rgb(60, 56, 56);
@@ -63,12 +70,13 @@ body {
 /* banner-section-starts */
 
 .banner-section {
+    max-width: 1320px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .left-side-text {
-    width: 100%;
     height: 440px;
     margin: 40px;
 }
@@ -101,7 +109,6 @@ body {
     width: 400px;
     margin-right: 100px;
     position: relative;
-
 
 }
 
@@ -145,8 +152,10 @@ body {
 
 
 .video-card-350 {
+    display: flex;
+    align-items: center;
     width: 130px;
-    height: 50px;
+    height: 60px;
     background: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgb(244, 234, 234);
@@ -164,7 +173,6 @@ body {
 .circle {
     color: red;
     margin-right: 10px;
-
 }
 
 .video-paragraph {
@@ -175,15 +183,15 @@ body {
 
 
 .video-card-500 {
-    width: 130px;
-    height: 50px;
+    width: 150px;
+    height: 70px;
     background: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgb(244, 234, 234);
     border-radius: 12px;
     position: absolute;
     margin: 0 auto;
-    right: -10%;
+    right: 5%;
     top: 25%;
     padding: 10px;
     backdrop-filter: blur(20px);
@@ -191,7 +199,13 @@ body {
 }
 
 
-.workout-paragraph {
+.para-style-350 {
+    font-size: 0.8rem;
+    color: rgba(239, 237, 232, 0.65);
+    text-align: right;
+}
+
+.para-style-500 {
     font-size: 0.8rem;
     color: rgba(239, 237, 232, 0.65);
     text-align: left;
@@ -203,14 +217,13 @@ body {
 /* habit section start */
 
 .Change-Your-Habit {
-    width: 100%;
     height: 500px;
     background-color: #100f0f;
 }
 
 
 .habit-container {
-    width: 1044px;
+    max-width: 1060px;
     height: 452px;
     margin: 0 auto;
 
@@ -271,13 +284,13 @@ body {
 /* run section start */
 
 .run-extra-mile-banner {
-    width: 100%;
+    margin: 0 auto;
     height: 400px;
     background-color: #100f0f;
 }
 
 .run-banner-container {
-    width: 1060px;
+    max-width: 1060px;
     height: 350px;
     margin: 0 auto;
     display: flex;
@@ -333,7 +346,6 @@ body {
 /* BMI calculator section start */
 
 .BMI-header-banner {
-    width: 100%;
     height: 150px;
     background-color: #100f0f;
 }
@@ -358,14 +370,13 @@ body {
 }
 
 .calculator-container {
-    width: 100%;
     height: 400px;
     background-color: rgb(34, 34, 34);
   
 }
 
 .BMI-calculator-style {
-    width: 1060px;
+    max-width: 1060px;
     height: 350px;
     display: flex;
     justify-content: space-between;
@@ -428,7 +439,6 @@ tr {
 
 
 .form-design {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 3fr);
     gap: 10px;
@@ -501,7 +511,6 @@ tr {
 /* Trainer section start */
 
 .meet-our-team {
-    width: 100%;
     background-color: rgb(8, 8, 8);
     padding-top: 50px;
 
@@ -510,7 +519,6 @@ tr {
 }
 
 .meet-our-team-container {
-    width: 1060px;
     height: 800px;
     margin: 0 auto;
 
@@ -535,7 +543,7 @@ tr {
 }
 
 .display-grid {
-    width: 1060px;
+    max-width: 1060px;
     height: 600px;
     border-radius: 16px;
     margin: 0 auto;
@@ -710,11 +718,11 @@ tr {
 }
 
 .footer-container {
-    width: 1060px;
+    max-width: 1240px;
     height: 250px;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
    
 
 }

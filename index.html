@@ -15,16 +15,19 @@
 
 <body>
     <!-- nav section start -->
-    <header class="container">
-        <nav class="nav-content">
-            <h2><em><span style="color: rgb(230, 83, 60)" ;>Fitness</span></em></h2>
-            <div class="navbar-heading">
-                <p><button class="home-btn"><b>Home</b></button></p>
-                <p>Service</p>
-                <p>Contact</p>
-                <p>About</p>
-            </div>
-        </nav>
+    <header class="header-section">
+        <div class="header-container">
+            <nav class="nav-content">
+                <h2><em><span style="color: rgb(230, 83, 60)";>Fitness</span></em></h2>
+                <div class="navbar">
+                    <p><button class="home-btn"><b>Home</b></button></p>
+                    <p>Service</p>
+                    <p>Contact</p>
+                    <p>About</p>
+                </div>
+                <div class="ham-burger"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+        </div>
         <!-- nav section ends -->
 
 
@@ -42,15 +45,24 @@
             </div>
             <div class="right-side-img">
                 <img src="images/Images 2.png" alt="">
-                <h3 class="video-card-350"><span class="circle"><i class="fa-solid fa-circle"></i></span>350+<br>
-                    <span class="video-paragraph">Video tutorial</span>
-                </h3>
-                <h2 class="video-card-500">500+<br><span class="workout-paragraph">Free workout videos</span></h2>
 
+                <div class="video-card-350">
+                    <span class="circle"><i class="fa-solid fa-circle"></i></span>
+                    <div>
+                        <h3>350+<br></h3>
+                        <p class="para-style-350">Video tutorial</p>
+                    </div>
+                </div>
+                
+                <div class="video-card-500">
+                    <h2>500+</h2>
+                    <p class="para-style-500">Free workout videos</p>
+                </div>
             </div>
         </div>
     </header>
     <!-- change your habit section start -->
+     
     <main>
         <section class="Change-Your-Habit">
             <div class="habit-container">
@@ -124,6 +136,7 @@
                             <th>BMI</th>
                             <th>Weight Status</th>
                         </tr>
+
                         <tr>
                             <td>below 18.5</td>
                             <td>Under Weight</td>
