@@ -16,7 +16,7 @@ body {
     background: linear-gradient(to bottom, #282727, #212020, #141414);
 }
 .header-container {
-    max-width: 1240px;
+    max-width: 1320px;
     margin: 0 auto;
     
 }
@@ -549,8 +549,8 @@ tr {
     margin: 0 auto;
     display: grid;
     margin-top: 50px;
-    padding-left: 25px;
     justify-content: center;
+    padding-left: 25px;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(255, 255, 255, 0.1);
